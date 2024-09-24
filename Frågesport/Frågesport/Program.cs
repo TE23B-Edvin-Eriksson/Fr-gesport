@@ -1,10 +1,12 @@
-﻿ int poäng = 0;
+﻿    static void Main(string[] args)
+    {
+        int poäng = 0;
         string val1;
         string name;
 
         // Namn
         Console.WriteLine("Vad heter du?");
-        Console.WriteLine("Svar :");
+        Console.WriteLine("Svar:");
         name = Console.ReadLine();
 
         // Intro
@@ -82,7 +84,7 @@
 
     static void fel()
     {
-        Console.WriteLine("""
+        Console.WriteLine(@"  
   ______     _                                __
  |  ____|   | |                           _  / /
  | |__  ___ | |  ___ __   __ __ _  _ __  (_)| |
@@ -90,5 +92,5 @@
  | |  |  __/| | \__ \ \ V /| (_| || |     _ | |
  |_|   \___||_| |___/  \_/  \__,_||_|    (_)| |
                                              \_\
-        """);
+        ");
     }
